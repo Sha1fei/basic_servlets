@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/custom_servlets/CustomServerSocket/CustomServerSocket.iml" filepath="$PROJECT_DIR$/custom_servlets/CustomServerSocket/CustomServerSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_servlets/CustomSocket/CustomSocket.iml" filepath="$PROJECT_DIR$/custom_servlets/CustomSocket/CustomSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/basic_servlets.iml" filepath="$PROJECT_DIR$/.idea/basic_servlets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_servlets/custom_servlets.iml" filepath="$PROJECT_DIR$/custom_servlets/custom_servlets.iml" />
+    </modules>
+  </component>
+</project>
