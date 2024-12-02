@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/socket/CustomClientSocket/CustomClientSocket.iml" filepath="$PROJECT_DIR$/socket/CustomClientSocket/CustomClientSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/CustomHttpClient/CustomHttpClient.iml" filepath="$PROJECT_DIR$/client/CustomHttpClient/CustomHttpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/CustomServerSocket/CustomServerSocket.iml" filepath="$PROJECT_DIR$/socket/CustomServerSocket/CustomServerSocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/socket/CustomSocket/CustomSocket.iml" filepath="$PROJECT_DIR$/socket/CustomSocket/CustomSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/CustomUrlClient/CustomUrlClient.iml" filepath="$PROJECT_DIR$/client/CustomUrlClient/CustomUrlClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/basic_servlets.iml" filepath="$PROJECT_DIR$/.idea/basic_servlets.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat/tomcat.iml" filepath="$PROJECT_DIR$/tomcat/tomcat.iml" />
