@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>User Page</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <h1>User hello!</h1>
+    <h1>Login hello!</h1>
 </body>
 </html>
 

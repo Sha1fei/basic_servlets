@@ -4,7 +4,7 @@
 <style>
   .navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px;
     background-color: aqua;
   }

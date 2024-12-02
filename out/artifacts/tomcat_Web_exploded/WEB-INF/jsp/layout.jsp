@@ -24,12 +24,14 @@
         <th>Employee</th>
         <th>Contact</th>
         <th>Company</th>
+        <th>Salary</th>
       </tr>
       <c:forEach var="user" items="${requestScope.userEntities}">
         <tr>
-          <td><a href="/user?id=${user.getId()}">${user.getFirst_name()}</a></td>
-          <td>${user.getContactEntity().getPhone()}</td>
+          <td><a href="/user?id=${user.getId()}">${user.getFirst_name()} ${user.getLast_name()}</a></td>
+          <td>${user.getContactEntity().getPhone()} ${user.getContactEntity().getType()}</td>
           <td>${user.getCompanyEntity().getName()}</td>
+          <td>${user.getSalary()}</td>
         </tr>
       </c:forEach>
     </table>
