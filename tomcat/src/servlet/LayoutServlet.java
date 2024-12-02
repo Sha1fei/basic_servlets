@@ -2,6 +2,7 @@ package servlet;
 
 import entity.UserEntity;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebInitParam;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -12,7 +13,9 @@ import util.JSPLoader;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/")
+@WebServlet(value = "/", name = "LayoutServlet", initParams = {
+        @WebInitParam(name="param", value = "param")
+})
 public class LayoutServlet extends HttpServlet {
 
     @Override

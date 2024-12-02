@@ -15,6 +15,9 @@
       td {
         border: 1px solid grey;
       }
+      .paragraph {
+        background-color: blueviolet;
+      }
     </style>
   </head>
   <body>
@@ -26,8 +29,8 @@
         <th>Company</th>
         <th>Salary</th>
       </tr>
+      <tr>
       <c:forEach var="user" items="${requestScope.userEntities}">
-        <tr>
           <td><a href="/user?id=${user.getId()}">${user.getFirst_name()} ${user.getLast_name()}</a></td>
           <td>${user.getContactEntity().getPhone()} ${user.getContactEntity().getType()}</td>
           <td>${user.getCompanyEntity().getName()}</td>
@@ -35,5 +38,32 @@
         </tr>
       </c:forEach>
     </table>
+    <div>Доп объекты JSP</div>
+    <div>
+      <span class="paragraph">applicationScope:</span> ${applicationScope}
+    </span>
+    <div>
+      <span class="paragraph">sessionScope:</span> ${sessionScope}
+    </div>
+    <div>
+      <span class="paragraph">requestScope:</span> ${requestScope}
+    </div>
+    <div>
+      <span class="paragraph">pageScope:</span> ${pageScope}
+    </div>
+    <div>
+      <span class="paragraph">param:</span> ${param}
+    </div>
+    <div>
+      <span class="paragraph">header:</span> ${header}
+    </div>
+    <div>
+      <span class="paragraph">cookie:</span> ${cookie}
+    </div>
+    <div>
+      <span class="paragraph">initParam:</span> ${initParam}
+    </div>
+
+
   </body>
 </html>

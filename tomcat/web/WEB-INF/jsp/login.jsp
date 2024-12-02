@@ -18,13 +18,13 @@
         }
         .login_form label {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
         }
     </style>
 </head>
 <body>
     <div class="login">
-        <form class="login_form" action="${pageContext.request.contextPath}/login">
+        <form class="login_form" action="${pageContext.request.contextPath}/login" method="get">
             <label for="login">Login:
                 <input type="text" name="login" id="login"/>
             </label><br>

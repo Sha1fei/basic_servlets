@@ -14,10 +14,6 @@
 </style>
 <div class="navigation">
   <c:if test="${true}">
-    <a href="/login">Login Page</a>
+    <div>Hello, ${cookie.userId.getValue()}</div>
   </c:if>
-  <c:if test="${false}">
-    <a href="/admin">Admin Page</a>
-  </c:if>
-
 </div>
