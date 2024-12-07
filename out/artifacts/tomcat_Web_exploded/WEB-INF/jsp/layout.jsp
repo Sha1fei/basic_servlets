@@ -18,6 +18,9 @@
       .paragraph {
         background-color: blueviolet;
       }
+      .hidden{
+
+      }
     </style>
   </head>
   <body>
@@ -28,6 +31,9 @@
         <th>Contact</th>
         <th>Company</th>
         <th>Salary</th>
+        <c:if test="${cookie.userId.getValue().equals('admin')}">
+          <th>manage</th>
+        </c:if>
       </tr>
       <tr>
       <c:forEach var="user" items="${requestScope.userEntities}">
@@ -35,6 +41,14 @@
           <td>${user.getContactEntity().getPhone()} ${user.getContactEntity().getType()}</td>
           <td>${user.getCompanyEntity().getName()}</td>
           <td>${user.getSalary()}</td>
+          <c:if test="${cookie.userId.getValue().equals('admin')}">
+            <td>
+              <input class="login_form" action="${pageContext.request.contextPath}/user" method="post">
+                <input class="hidden" type="hidden" name="id" id="id" value="${user.getId()}"/>
+                <input type="submit" value="delete"/>
+              </form>
+            </td>
+          </c:if>
         </tr>
       </c:forEach>
     </table>
@@ -61,7 +75,7 @@
       <span class="paragraph">cookie:</span> ${cookie}
     </div>
     <div>
-      <span class="paragraph">initParam:</span> ${initParam}
+        <span class="paragraph">initParam:</span> ${initParam}
     </div>
 
 

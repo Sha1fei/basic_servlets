@@ -13,7 +13,5 @@
   }
 </style>
 <div class="navigation">
-  <c:if test="${true}">
     <div>Hello, ${cookie.userId.getValue()}</div>
-  </c:if>
 </div>

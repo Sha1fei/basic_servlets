@@ -27,7 +27,13 @@ public class UserServlet extends HttpServlet {
     }
 
     @Override
-    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("utf-8");
+        var id =  Integer.parseInt(req.getParameter("id"));
+        UserService userService = new UserService();
+        userService.deleteById(id);
+        List<UserEntity> userEntities= userService.findAll();
+        req.setAttribute("userEntities", userEntities);
+        req.getRequestDispatcher(JSPLoader.getPath("user")).forward(req, resp);
     }
 }

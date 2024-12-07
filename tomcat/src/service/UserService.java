@@ -45,4 +45,9 @@ public class UserService {
         UserDao userDao = new UserDao();
         return userDao.findById(id);
     }
+
+    public Boolean deleteById(Integer id) {
+        UserDao userDao = new UserDao();
+        return userDao.delete(id);
+    }
 }
