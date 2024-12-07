@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tomcat:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93a975c8-6913-4d56-8d4e-1bff61e76d35" name="Changes" comment="add tomcat servlets">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/layout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/navigation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/layout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/navigation.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sha1fei&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Sha1fei/basic_servlets.git&quot;,
+    &quot;accountId&quot;: &quot;66a77d61-1b6d-48cf-ae9d-212f2a6bc595&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ogetZrXiC0NskeD4KZWnWEQ8ut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CustomHttpClient.executor": "Run",
+    "Application.CustomHttpServerSocket.executor": "Run",
+    "Application.CustomHttpSocket.executor": "Run",
+    "Application.CustomServerSocket.executor": "Run",
+    "Application.CustomSocket.executor": "Run",
+    "Application.CustomUDPServerSocket.executor": "Run",
+    "Application.CustomUDPSocket.executor": "Run",
+    "Application.CustomUrlClient.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TestDAO.executor": "Debug",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.layout.jsp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 11.0.1.executor": "Run",
+    "Tomcat Server.localTomcatServer.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/valentinzadorozhniy/IdeaProjects/basic_servlets/tomcat/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tomcat/lib" />
+      <recent name="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/tomcat/src/util" />
+      <recent name="$PROJECT_DIR$/tomcat/resources" />
+      <recent name="$PROJECT_DIR$/tomcat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tomcat/lib" />
+      <recent name="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/tomcat/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="servlet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlet" />
+      <recent name="dto" />
+      <recent name="entity" />
+      <recent name="" />
+      <recent name="CustomSocket" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TestDAO">
+    <configuration name="CustomHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomHttpClient" />
+      <module name="CustomHttpClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomHttpServerSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomHttpServerSocket" />
+      <module name="CustomServerSocket" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomHttpSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomHttpSocket" />
+      <module name="CustomClientSocket" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomUrlClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomUrlClient" />
+      <module name="CustomUrlClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.TestDAO" />
+      <module name="tomcat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 11.0.1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="tomcat:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f530a3ed-86cd-4a0f-aa63-ea7368859523" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58702" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tomcat:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestDAO" />
+      <item itemvalue="Application.CustomHttpClient" />
+      <item itemvalue="Application.CustomHttpServerSocket" />
+      <item itemvalue="Application.CustomHttpSocket" />
+      <item itemvalue="Application.CustomUrlClient" />
+      <item itemvalue="Tomcat Server.Tomcat 11.0.1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDAO" />
+        <item itemvalue="Application.CustomHttpClient" />
+        <item itemvalue="Application.CustomUrlClient" />
+        <item itemvalue="Application.CustomHttpSocket" />
+        <item itemvalue="Application.CustomHttpServerSocket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93a975c8-6913-4d56-8d4e-1bff61e76d35" name="Changes" comment="" />
+      <created>1731295861466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731295861466</updated>
+      <workItem from="1731898009797" duration="1810000" />
+      <workItem from="1731928994809" duration="32261000" />
+      <workItem from="1732506713355" duration="102111000" />
+    </task>
+    <task id="LOCAL-00001" summary="add sample socket client server">
+      <option name="closed" value="true" />
+      <created>1731381640119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381640119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add sample socket client server">
+      <option name="closed" value="true" />
+      <created>1731929735283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929735283</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add sample socket client server">
+      <option name="closed" value="true" />
+      <created>1731929846675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929846675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add UDP server">
+      <option name="closed" value="true" />
+      <created>1731939271711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731939271711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add UDP server">
+      <option name="closed" value="true" />
+      <created>1731939718437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731939718437</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add UrlClient">
+      <option name="closed" value="true" />
+      <created>1731944048433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731944048433</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add HttpClient">
+      <option name="closed" value="true" />
+      <created>1731976283137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731976283137</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add HttpClient">
+      <option name="closed" value="true" />
+      <created>1731976288717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731976288717</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add first servlets">
+      <option name="closed" value="true" />
+      <created>1732342148600</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732342148600</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733113771925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733113771925</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733113837179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733113837179</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733114331972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733114331972</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733114399150</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733114399150</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733115066045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733115066045</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733115126302</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733115126302</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733116370439</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733116370439</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733139945079</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733139945079</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add tomcat servlets">
+      <option name="closed" value="true" />
+      <created>1733540223720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733540223720</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add sample socket client server" />
+    <MESSAGE value="add UDP server" />
+    <MESSAGE value="add UrlClient" />
+    <MESSAGE value="add HttpClient" />
+    <MESSAGE value="add first servlets" />
+    <MESSAGE value="add login and jsp" />
+    <MESSAGE value="add tomcat servlets" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tomcat servlets" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
