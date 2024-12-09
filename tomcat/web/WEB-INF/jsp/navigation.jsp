@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <style>
   .navigation{
@@ -13,5 +14,7 @@
   }
 </style>
 <div class="navigation">
-    <div>Hello, ${cookie.userId.getValue()}</div>
+    <fmt:setLocale value="ru_Ru" />
+    <fmt:setBundle basename="translation" />
+    <div><fmt:message key="page.hello" />, ${cookie.userId.getValue()}</div>
 </div>
