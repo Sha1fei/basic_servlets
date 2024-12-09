@@ -16,5 +16,5 @@
 <div class="navigation">
     <fmt:setLocale value="ru_Ru" />
     <fmt:setBundle basename="translation" />
-    <div><fmt:message key="page.hello" /> , ${cookie.userId.getValue()}</div>
+    <div><fmt:message key="page.hello" />, ${cookie.userId.getValue()}</div>
 </div>
