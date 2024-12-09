@@ -6,5 +6,5 @@ import lombok.Value;
 @Value
 @Builder
 public class DeleteUserDto {
-    Long id;
+    Integer id;
 }

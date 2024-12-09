@@ -21,7 +21,7 @@ public class LayoutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
-        UserService userService = new UserService();
+        UserService userService =  UserService.getInstance();
         List<UserEntity> userEntities= userService.findAll();
         req.setAttribute("userEntities", userEntities);
         req.getRequestDispatcher(JSPLoader.getPath("layout")).forward(req, resp);

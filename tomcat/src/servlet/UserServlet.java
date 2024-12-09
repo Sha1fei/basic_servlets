@@ -1,5 +1,6 @@
 package servlet;
 
+import dto.DeleteUserDto;
 import entity.UserEntity;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -20,7 +21,7 @@ public class UserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
-        UserService userService = new UserService();
+        UserService userService = UserService.getInstance();
         List<UserEntity> userEntities= userService.findAll();
         req.setAttribute("userEntities", userEntities);
         req.getRequestDispatcher(JSPLoader.getPath("user")).forward(req, resp);
@@ -30,10 +31,11 @@ public class UserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
         var id =  Integer.parseInt(req.getParameter("id"));
-        UserService userService = new UserService();
-        userService.deleteById(id);
+        UserService userService = UserService.getInstance();
+        var deleteUserDto = DeleteUserDto.builder().id(id).build();
+        userService.deleteById(deleteUserDto);
         List<UserEntity> userEntities= userService.findAll();
         req.setAttribute("userEntities", userEntities);
-        req.getRequestDispatcher(JSPLoader.getPath("user")).forward(req, resp);
+        req.getRequestDispatcher(JSPLoader.getPath("layout")).forward(req, resp);
     }
 }

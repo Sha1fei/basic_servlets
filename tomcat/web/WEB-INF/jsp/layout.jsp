@@ -45,14 +45,15 @@
             <td>
               <form class="login_form" action="${pageContext.request.contextPath}/user" method="post">
                 <input type="hidden" name="id" id="id" value="${user.getId()}"/>
-                <input type="submit" value="delete"/>
+                <input type="submit" value="удалить" >
               </form>
             </td>
           </c:if>
         </tr>
       </c:forEach>
     </table>
-    <div>Доп объекты JSP</div>
+    <%@ include file="imageLoader.jsp"%>
+    <div>Доп объекты JSP:</div>
     <div>
       <span class="paragraph">applicationScope:</span> ${applicationScope}
     </span>

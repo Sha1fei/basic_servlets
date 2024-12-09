@@ -10,16 +10,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a975c8-6913-4d56-8d4e-1bff61e76d35" name="Changes" comment="add tomcat servlets">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/Filter/UserFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dao/ImageLoaderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/CreateImageLoaderDto$CreateImageLoaderDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/CreateImageLoaderDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/entity/ImageLoaderEntity$ImageLoaderEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/entity/ImageLoaderEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/ImageLoaderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/ImageLoaderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/imageLoader.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/Filter/UserFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/dao/ImageLoaderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/dto/CreateImageLoaderDto$CreateImageLoaderDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/dto/CreateImageLoaderDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/entity/ImageLoaderEntity$ImageLoaderEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/entity/ImageLoaderEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/service/ImageLoaderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tomcat/servlet/ImageLoaderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/src/dao/ImageLoaderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/src/entity/ImageLoaderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/src/service/ImageLoaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/src/servlet/ImageLoaderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/imageLoader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/CreateUserDto$CreateUserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/CreateUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/DeleteUserDto$DeleteUserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/DeleteUserDto$DeleteUserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/DeleteUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/DeleteUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/ReadUserByIdDto$ReadUserByIdDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/ReadUserByIdDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/UpdateUserDto$UpdateUserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/dto/UpdateUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/LoginService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/LayoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/LayoutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/classes/servlet/UserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/layout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tomcat_Web_exploded/WEB-INF/jsp/navigation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/CreateUserDto$CreateUserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/CreateUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/DeleteUserDto$DeleteUserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/dto/DeleteUserDto$DeleteUserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/DeleteUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/dto/DeleteUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/ReadUserByIdDto$ReadUserByIdDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/ReadUserByIdDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/UpdateUserDto$UpdateUserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/dto/UpdateUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/service/LoginService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tomcat/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tomcat/servlet/LayoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/servlet/LayoutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tomcat/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tomcat/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/dto/CreateUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/dto/DeleteUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/dto/DeleteUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/dto/ReadUserByIdDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/dto/CreateImageLoaderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/dto/UpdateUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/service/LoginService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/src/servlet/LayoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/servlet/LayoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/layout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp/navigation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +142,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 11.0.1.executor": "Run",
+    "Tomcat Server.Tomcat 11.0.1.executor": "Debug",
     "Tomcat Server.localTomcatServer.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/valentinzadorozhniy/IdeaProjects/basic_servlets/tomcat/lib",
+    "last_opened_file_path": "/Users/valentinzadorozhniy/IdeaProjects/basic_servlets/tomcat/web/WEB-INF/jsp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,8 +162,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tomcat/lib" />
       <recent name="$PROJECT_DIR$/tomcat/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/tomcat/lib" />
       <recent name="$PROJECT_DIR$/tomcat/src/util" />
       <recent name="$PROJECT_DIR$/tomcat/resources" />
       <recent name="$PROJECT_DIR$/tomcat" />
@@ -128,11 +179,11 @@
       <recent name="servlet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="servlet" />
       <recent name="dto" />
+      <recent name="service" />
       <recent name="entity" />
+      <recent name="servlet" />
       <recent name="" />
-      <recent name="CustomSocket" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,6 +245,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="f530a3ed-86cd-4a0f-aa63-ea7368859523" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -476,11 +528,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tomcat/src/servlet/UserServlet.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="basePath" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

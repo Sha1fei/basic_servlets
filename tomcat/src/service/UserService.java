@@ -1,15 +1,24 @@
 package service;
 
 import dao.UserDao;
+import dto.DeleteUserDto;
 import entity.CompanyEntity;
 import entity.ContactEntity;
 import entity.UserEntity;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class UserService {
+
+    @Getter
+    private static UserService instance = new UserService();
+
     public List<UserEntity> findAll() {
         UserDao userDao = new UserDao();
         return userDao.findAll().stream()
@@ -46,8 +55,8 @@ public class UserService {
         return userDao.findById(id);
     }
 
-    public Boolean deleteById(Integer id) {
+    public Boolean deleteById(DeleteUserDto deleteUserDto) {
         UserDao userDao = new UserDao();
-        return userDao.delete(id);
+        return userDao.delete(deleteUserDto.getId());
     }
 }
